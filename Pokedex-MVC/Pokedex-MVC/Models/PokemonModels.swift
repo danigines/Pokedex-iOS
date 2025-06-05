@@ -50,3 +50,24 @@ struct Stat: Decodable {
 struct StatInfo: Decodable {
   let name: String
 }
+
+struct PokemonSpecies: Decodable {
+  let evolution_chain: EvolutionChainLink
+}
+
+struct EvolutionChainLink: Decodable {
+  let url: String
+}
+
+struct EvolutionChainResponse: Decodable {
+  let chain: EvolutionStep
+}
+
+struct EvolutionStep: Decodable {
+  let species: NamedAPIResource
+  let evolves_to: [EvolutionStep]
+}
+
+struct NamedAPIResource: Decodable {
+  let name: String
+}

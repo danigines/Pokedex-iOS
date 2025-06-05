@@ -39,4 +39,11 @@ class PokemonListViewController: UITableViewController {
     cell.textLabel?.text = pokemon.name.capitalized
     return cell
   }
+
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let selectedPokemon = pokemonList[indexPath.row]
+    let detailVC = PokemonDetailViewController(nibName: "PokemonDetailViewController", bundle: nil)
+    detailVC.pokemon = selectedPokemon
+    navigationController?.pushViewController(detailVC, animated: true)
+  }
 }

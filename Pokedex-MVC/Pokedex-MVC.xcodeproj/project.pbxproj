@@ -10,6 +10,8 @@
 		956EACB22DF162DC0097368B /* PokemonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EACB12DF162DC0097368B /* PokemonModels.swift */; };
 		956EACB42DF1632C0097368B /* PokeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EACB32DF1632C0097368B /* PokeAPIService.swift */; };
 		956EACB62DF164700097368B /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EACB52DF164700097368B /* PokemonListViewController.swift */; };
+		956EACB82DF167DE0097368B /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956EACB72DF167DE0097368B /* PokemonDetailViewController.swift */; };
+		956EACBC2DF16D350097368B /* PokemonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956EACBB2DF16D350097368B /* PokemonDetailViewController.xib */; };
 		95A9151F2DF15DCE008BCA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9151E2DF15DCE008BCA49 /* AppDelegate.swift */; };
 		95A915212DF15DCE008BCA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A915202DF15DCE008BCA49 /* SceneDelegate.swift */; };
 		95A915232DF15DCE008BCA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A915222DF15DCE008BCA49 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		956EACB12DF162DC0097368B /* PokemonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModels.swift; sourceTree = "<group>"; };
 		956EACB32DF1632C0097368B /* PokeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIService.swift; sourceTree = "<group>"; };
 		956EACB52DF164700097368B /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
+		956EACB72DF167DE0097368B /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
+		956EACBB2DF16D350097368B /* PokemonDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonDetailViewController.xib; sourceTree = "<group>"; };
 		95A9151B2DF15DCE008BCA49 /* Pokedex-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokedex-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A9151E2DF15DCE008BCA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95A915202DF15DCE008BCA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		95A915502DF15E12008BCA49 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				956EACBB2DF16D350097368B /* PokemonDetailViewController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				956EACB52DF164700097368B /* PokemonListViewController.swift */,
+				956EACB72DF167DE0097368B /* PokemonDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 				95A9152B2DF15DD2008BCA49 /* LaunchScreen.storyboard in Resources */,
 				95A915282DF15DD2008BCA49 /* Assets.xcassets in Resources */,
 				95A915262DF15DCE008BCA49 /* Main.storyboard in Resources */,
+				956EACBC2DF16D350097368B /* PokemonDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +316,7 @@
 			files = (
 				95A915232DF15DCE008BCA49 /* ViewController.swift in Sources */,
 				95A9151F2DF15DCE008BCA49 /* AppDelegate.swift in Sources */,
+				956EACB82DF167DE0097368B /* PokemonDetailViewController.swift in Sources */,
 				95A915212DF15DCE008BCA49 /* SceneDelegate.swift in Sources */,
 				956EACB42DF1632C0097368B /* PokeAPIService.swift in Sources */,
 				956EACB62DF164700097368B /* PokemonListViewController.swift in Sources */,
