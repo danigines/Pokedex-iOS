@@ -1,0 +1,43 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+# SwiftPM
+/.build/
+/Packages/
+/Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Firebase
+GoogleService-Info.plist
+
+# Env files
+*.env
+*.secret
+*.key
+
+# User-specific
+*.swp
+*.swo
+.idea/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# SPM checkouts
+.swiftpm/
