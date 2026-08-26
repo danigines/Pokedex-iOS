@@ -21,6 +21,15 @@ Only MVC exists today. Each architecture will have an independent Xcode project 
 
 The current application is intentionally an empty UIKit baseline.
 
+## Technical baseline
+
+- Swift 6
+- UIKit with programmatic screens
+- iOS 16 or later
+- iPhone only
+- Portrait orientation
+- No external dependencies
+
 ## Documentation
 
 - [Architecture strategy](Documentation/Architecture-Strategy.md)
@@ -39,4 +48,4 @@ Daniel Garcia
 
 ## License
 
-No license has been selected yet.
+Copyright © 2026 Daniel Garcia. All rights reserved. See [LICENSE](LICENSE).
