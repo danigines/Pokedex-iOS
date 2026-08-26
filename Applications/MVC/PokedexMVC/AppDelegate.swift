@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Pokedex-MVC
+//  PokedexMVC
 //
 //  Created by Daniel Garcia on 04/06/25.
 //

@@ -1,18 +1,42 @@
-# Pokedex-iOS
+# Pokédex iOS — Architecture Study
 
-## 🖼️ Screenshots
+An educational UIKit project implementing the same Pokédex with MVC, MVP, MVVM, and VIPER to compare responsibilities, dependencies, navigation, and testability.
 
-*Coming soon*
+## Status
 
-## 🧪 In Progress
+| Architecture | Status |
+| --- | --- |
+| MVC | Ready for implementation |
+| MVP | Not started |
+| MVVM | Not started |
+| VIPER | Not started |
 
-This is part of a larger project aimed at implementing the same app with multiple architectures:
+Only MVC exists today. Each architecture will have an independent Xcode project inside `Applications/`.
 
-- [x] MVC ✅ (this repo)
-- [ ] MVP
-- [ ] MVVM
-- [ ] VIPER
+## Open the project
 
-## ✨ Author
+1. Open `Applications/MVC/PokedexMVC.xcodeproj` in Xcode.
+2. Select the `PokedexMVC` scheme.
+3. Choose an iOS simulator and run the application.
 
-Developed by **Daniel Garcia**
+The current application is intentionally an empty UIKit baseline.
+
+## Documentation
+
+- [Architecture strategy](Documentation/Architecture-Strategy.md)
+- [Feature parity](Documentation/Feature-Parity.md)
+- [Roadmap](Documentation/Roadmap.md)
+- [Functional overview](Documentation/Requirements/Functional-Overview.md)
+- [Architecture decision](Documentation/Decisions/ADR-001-Multi-Architecture-Repository.md)
+
+## Data source
+
+Future versions will use [PokéAPI](https://pokeapi.co/). This project is not affiliated with or endorsed by The Pokémon Company, Nintendo, Game Freak, or Creatures.
+
+## Author
+
+Daniel Garcia
+
+## License
+
+No license has been selected yet.

@@ -1,14 +1,14 @@
 //
-//  Pokedex_MVCTests.swift
-//  Pokedex-MVCTests
+//  PokedexMVCTests.swift
+//  PokedexMVCTests
 //
 //  Created by Daniel Garcia on 04/06/25.
 //
 
 import XCTest
-@testable import Pokedex_MVC
+@testable import PokedexMVC
 
-final class Pokedex_MVCTests: XCTestCase {
+final class PokedexMVCTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
