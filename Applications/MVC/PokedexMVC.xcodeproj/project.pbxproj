@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		95A9151F2DF15DCE008BCA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A9151E2DF15DCE008BCA49 /* AppDelegate.swift */; };
 		95A915212DF15DCE008BCA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A915202DF15DCE008BCA49 /* SceneDelegate.swift */; };
-		95A915232DF15DCE008BCA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A915222DF15DCE008BCA49 /* ViewController.swift */; };
+		95A915232DF15DCE008BCA49 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A915222DF15DCE008BCA49 /* RootViewController.swift */; };
 		95A915282DF15DD2008BCA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A915272DF15DD2008BCA49 /* Assets.xcassets */; };
 		95A9152B2DF15DD2008BCA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A915292DF15DD2008BCA49 /* LaunchScreen.storyboard */; };
 		95A915362DF15DD3008BCA49 /* PokedexMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A915352DF15DD3008BCA49 /* PokedexMVCTests.swift */; };
@@ -38,7 +38,7 @@
 		95A9151B2DF15DCE008BCA49 /* PokedexMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PokedexMVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A9151E2DF15DCE008BCA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95A915202DF15DCE008BCA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95A915222DF15DCE008BCA49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95A915222DF15DCE008BCA49 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		95A915272DF15DD2008BCA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A9152A2DF15DD2008BCA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A9152C2DF15DD2008BCA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,14 +97,30 @@
 		95A9151D2DF15DCE008BCA49 /* PokedexMVC */ = {
 			isa = PBXGroup;
 			children = (
+				A00000000000000000000001 /* App */,
+				A00000000000000000000002 /* Resources */,
+			);
+			path = "PokedexMVC";
+			sourceTree = "<group>";
+		};
+		A00000000000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				95A9151E2DF15DCE008BCA49 /* AppDelegate.swift */,
 				95A915202DF15DCE008BCA49 /* SceneDelegate.swift */,
-				95A915222DF15DCE008BCA49 /* ViewController.swift */,
+				95A915222DF15DCE008BCA49 /* RootViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				95A915272DF15DD2008BCA49 /* Assets.xcassets */,
 				95A915292DF15DD2008BCA49 /* LaunchScreen.storyboard */,
 				95A9152C2DF15DD2008BCA49 /* Info.plist */,
 			);
-			path = "PokedexMVC";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		95A915342DF15DD3008BCA49 /* PokedexMVCTests */ = {
@@ -254,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95A915232DF15DCE008BCA49 /* ViewController.swift in Sources */,
+				95A915232DF15DCE008BCA49 /* RootViewController.swift in Sources */,
 				95A9151F2DF15DCE008BCA49 /* AppDelegate.swift in Sources */,
 				95A915212DF15DCE008BCA49 /* SceneDelegate.swift in Sources */,
 			);
@@ -426,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PokedexMVC/Info.plist";
+				INFOPLIST_FILE = "PokedexMVC/Resources/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Pokédex MVC";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -452,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PokedexMVC/Info.plist";
+				INFOPLIST_FILE = "PokedexMVC/Resources/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Pokédex MVC";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
